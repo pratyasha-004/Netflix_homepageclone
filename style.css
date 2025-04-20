@@ -159,9 +159,10 @@ nav button {
 
 .secimg video {
     position: absolute;
-    width: 35vw;
-    top: px;
-    right: 0px;
+    width: 30vw;
+    top: 118px;
+    right: 65px;
+
 }
 
 .first div :first-child {
