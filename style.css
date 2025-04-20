@@ -88,6 +88,7 @@ nav button {
     height: 7px;
     background-color: gray;
     opacity: 0.45;
+    
 }
 
 .btn {
@@ -139,13 +140,18 @@ nav button {
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width:1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
 
 .secimg {
     position: relative;
 }
 
 .secimg img {
-    width: 38vw;
+     width: 39vw;
     position: relative;
     z-index: 10;
 
@@ -153,14 +159,15 @@ nav button {
 
 .secimg video {
     position: absolute;
-    width: 33vw;
-    top: 69px;
+    width: 35vw;
+    top: px;
     right: 0px;
 }
 
 .first div :first-child {
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
 .first span:first-child {
@@ -173,12 +180,12 @@ nav button {
     font-weight: 400;
 }
 
-.third .secimg :nth-child(2) {
+  .third .secimg :nth-child(2) {
     width: 23vw;
-    top: 30px;
+     top: 58px;
     right: 0;
-    left: 100px;
-}
+    left: 119px; 
+}  
 
 .faq h2 {
     text-align: center;
@@ -210,16 +217,32 @@ nav button {
     color: white;
 }
 
-footer a {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+footer {
     color: white;
     max-width: 60vw;
     margin: auto;
+    padding: 14px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+footer a {
+    color: white;
+    font-size: 14px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
 }
 
 .footer-items {
     display: flex;
     flex-direction: column;
-    
+    color: white;
+    gap: 23px;
 }
